@@ -1,8 +1,9 @@
 .App {
+	text-align: center;
 	font-family: "Karla", sans-serif;
 }
 
-header {
+.header {
 	background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
 	color: #ffffff;
 	height: 65px;
@@ -11,20 +12,46 @@ header {
 	padding: 0 20px;
 }
 
-.logo {
+.header-logo {
 	display: flex;
 	align-items: center;
 	letter-spacing: -0.1em;
 }
 
-.logo img {
+.header-image {
 	margin-right: 5px;
-	width: 31.31px;
-	height: 26.22px;
-
+	width: 31px;
+	height: 26px;
 }
 
-.subtitle {
+.header-subtitle {
 	font-weight: 500;
 	letter-spacing: 0em;
+}
+
+.main {
+	margin: 20px;
+}
+
+.main-input {
+	display: flex;
+	margin-top: 20px;
+}
+
+.main-input-1 {
+	width: 50%;
+	margin-right: .5rem;
+}
+
+.main-input-2 {
+	width: 50%;
+}
+
+.main-button {
+	margin-top: 5px;
+	width: 100%;
+	background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+	color: #ffffff;
+	border-radius: 5px;
+	border-width: 1px;
 }
